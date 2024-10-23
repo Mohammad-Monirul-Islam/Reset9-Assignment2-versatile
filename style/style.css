@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    background-color:black ;
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* custom css style
+=============== */
+.main-container{
+    width: 1240px;
+    margin: 0px auto;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    line-height: 60px;
+}
+h3{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: left;
+}
+h4{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
+}
+p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.left_text{
+    text-align: left;
+    padding: 30px 0px;
+}
+.primary-button{
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border-radius: 42px;
+    padding: 16px 40px;
+    margin-right: 10px;
+
+}
+.primary-button:hover{
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 16px 40px;
+}
+.secondary-button{
+    background: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 40px;
+    margin-left: 10px;
+}
+.secondary-button:hover{
+    background: rgb(230, 83, 60);
+    padding: 16px 40px;
+    
+}
+
+/* Navbar style css  */
+
+.nav-log> h1{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.nav-items > ul{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 5px;
+}
+.nav-items > ul >li{
+    list-style: none;
+    margin-right: 25px;
+    padding: 6px 20px;
+}
+.nav-items > ul >li a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.nav-items > ul >li:hover {
+    background: rgb(230, 83, 60);
+    border-radius: 46px;
+    padding: 6px 20px;
+    outline: none;
+    transition: 0.8s;
+}
+
+/* banner style css */
+
+.bg-banner{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.banner-heading {
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 85px;
+}
+.styling-text{
+    font-family: "Allura";
+    font-weight: 400;
+}
+.banner-continer{
+    height: 580px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px red;
+}
+.banner-image-section{
+    background-image: url("../images/image\ 2.png");
+}
