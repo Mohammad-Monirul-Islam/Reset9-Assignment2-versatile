@@ -15,6 +15,9 @@ body{
     width: 1240px;
     margin: 0px auto;
 }
+.gap-container{
+    margin: 100px auto;
+}
 
 h2{
     color: rgb(255, 255, 255);
@@ -22,6 +25,7 @@ h2{
     font-weight: 900;
     text-align: left;
     line-height: 60px;
+    margin-bottom: 10px;
 }
 h3{
     color: rgb(255, 255, 255);
@@ -120,9 +124,8 @@ p{
 }
 
 /* banner style css */
-
-.bg-banner{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+.banner-content-section{
+    width: 50%;
 }
 .banner-heading {
     color: rgb(255, 255, 255);
@@ -142,5 +145,93 @@ p{
     border: solid 1px red;
 }
 .banner-image-section{
-    background-image: url("../images/image\ 2.png");
+    width: 50%;
+    position: relative;
+}
+.banner-image-section img{
+    width: 349px;
+    height: 580px;
+    margin-left:270px;
+}
+.banner-card-1 {
+    width: 220px;
+    padding: 20px 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    position: absolute;
+    top: 137px;
+    right: -101px;
+}
+.card-title{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    text-align: left;
+}
+.card-description{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+.banner-card-2 {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    width: 250px;
+    padding: 20px 30px;
+    background-color: rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    position: absolute;
+    bottom: 67px;
+    left: 108px;
+}
+.card-title{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    text-align: left;
+}
+.card-description{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+
+/* habit style css */
+.center-heading{
+    text-align: center;
+}
+.card-items{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    margin-top: 50px;
+}
+.card-item-1{
+    width: 25%;
+}
+.card-item-1 >img,
+.card-item-2 >img,
+.card-item-3 >img,
+.card-item-4 >img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
 }
