@@ -50,7 +50,7 @@ p{
 }
 .left_text{
     text-align: left;
-    padding: 30px 0px;
+    padding: 15px 0px;
 }
 .primary-button{
     background: rgb(230, 83, 60);
@@ -98,6 +98,9 @@ p{
     justify-content: space-between;
     padding: 30px 0px;
 }
+.fa-bars{
+    display: none;
+}
 .nav-items > ul{
     display: flex;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -142,7 +145,6 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid 1px red;
 }
 .banner-image-section{
     width: 50%;
@@ -234,4 +236,334 @@ p{
     margin-right: auto;
     border-radius: 50%;
     margin-bottom: 15px;
+}
+
+/* run section style  */
+.container{
+    background: rgb(34, 34, 34);
+    display: flex;
+    border-radius: 18px;
+    padding: 40px;
+    
+}
+.run-content-section{
+    width: 50%;
+}
+.run-image{
+    width:50%;
+}
+.run-image img{
+    width:360px ;
+    height:310px ;
+    border-radius: 18px;
+    display: block;
+    margin-left: auto;
+}
+.content-text{
+    margin-bottom: -100px;
+}
+/* teainings style */
+.traings-card-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    position: relative;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6
+{
+    /* width: 413px; */
+    height: 350px;
+    background-image:linear-gradient(0deg, rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), 
+    url("/images/exercise1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.card-1{
+    width: 370px;
+}
+.card-1 >p,
+.card-2 >p,
+.card-3 >p
+ {
+    position: absolute;
+    bottom: 57px;
+    left: 28px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.card-2 >p{
+    position: absolute;
+    top: 47px;
+    left: 28px;
+    color: rgb(255, 255, 255);
+
+}
+.card-3 >p{
+    color: rgb(255, 255, 255);
+
+}
+
+
+.card-2{
+    width: 499px;
+    background-image:linear-gradient(0deg, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), 
+    url("/images/exercise2.png");
+    grid-column: 2/ span 2;
+}
+.card-3{
+    width: 370px;
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("/images/exercise3.png");
+}
+.card-box-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+}
+.card-4{
+    width: 445px;
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("/images/exercise4.png");
+    grid-column: 1/ span 1;
+}
+.card-5{
+    width: 348px;
+    background-image:linear-gradient(0deg, rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), 
+    url("/images/exercise5.jpg");
+}
+.card-6{
+    width: 445px;
+    background-image:linear-gradient(0deg, rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), 
+    url("/images/exercise6.jpg");
+}
+.card-4 >p,
+.card-5 >p,
+.card-6 >p
+ {
+    position: absolute;
+    bottom: 57px;
+    left: 28px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+}
+.card-4 >p{
+    position: absolute;
+    top: 57px;
+    right: 35px;
+    text-align: right;
+}
+.card-2 >p{
+    position: absolute;
+    top: 47px;
+    left: 28px;
+    color: rgb(255, 255, 255);
+
+}
+.card-3 >p{
+    color: rgb(255, 255, 255);
+
+}
+/* team section style */
+.team-section{
+    margin: 70px 0px;
+}
+.team-section-card{
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 70px 0px;
+    padding: 10px;
+}
+.team-section-1,
+.team-section-2,
+.team-section-3,
+.team-section-4,
+.team-section-5,
+.team-section-6
+{
+   width: 393px;
+   height: 375px;
+   background-image: url("/images/trainer1.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   border-radius: 18px;
+}
+
+.team-section-2{
+   background-image: url("/images/trainer2.png");
+
+}
+.team-section-3{
+   background-image: url("/images/trainer3.png");
+
+}
+.team-section-4{
+   background-image: url("/images/trainer4.png");
+
+}
+.team-section-5{
+   background-image: url("/images/trainer5.png");
+
+}
+.team-section-6{
+   background-image: url("/images/trainer6.png");
+
+}
+.team-content-section{
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
+.team-title{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}
+.team-descrption {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: -12px !important;
+}
+
+/* footer section style */
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo> h1{
+    color: rgb(230, 83, 60);
+    font-size: 60px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: left;
+}
+.footer-item{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+.footer-link > ul{
+    border-radius: 39px;
+    padding: 5px;
+}
+.footer-link > ul >li{
+    list-style: none;
+    margin-right: 25px;
+    padding: 6px 0px;
+}
+.footer-link > ul >li a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+/* small device responsive */
+@media screen and (max-width:576px){
+.main-container{
+    width: 576px;
+}
+.gap-container{
+    margin: 40px auto;
+}
+
+h2{
+    font-size: 32px;
+}
+.nav-log> h1{
+    font-size: 36px;
+    margin-left: 15px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.fa-bars {
+    display: block;
+    font-size: 41px;
+}
+.nav-items > ul{
+    display: none;
+}
+.banner-content-section{
+    width: 100%;
+    display: none;
+}
+
+.banner-image-section{
+    width: 100%;
+    display: none;
+    position: relative;
+}
+.mobile-container{
+    margin: 10px 40px;
+}
+.habit-section-content{
+    margin: 10px 40px;
+}
+.center-heading{
+    text-align: center;
+    font-size: 32px;
+}
+.card-items{
+    display: grid;
+    margin-top: 50px;
+}
+.card-item-1{
+    width: 100%;
+}
+.card-item-1 >img,
+.card-item-2 >img,
+.card-item-3 >img,
+.card-item-4 >img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* run section style  */
+.container{
+    background: rgb(34, 34, 34);
+    display: grid;
+    border-radius: 18px;
+    padding: 40px;
+    
+}
+.run-content-section{
+    width: 100%;
+}
+.run-image{
+    width:100%;
+}
+.run-image img{
+    width:360px ;
+    height:310px ;
+ 
+}
+.content-text{
+    margin-bottom: -100px;
+}
+
 }
