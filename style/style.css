@@ -566,4 +566,218 @@ h2{
     margin-bottom: -100px;
 }
 
+/* teainings style */
+.traings-card-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    position: relative;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6
+{
+    /* width: 413px; */
+    height: 350px;
+    background-image:linear-gradient(0deg, rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), 
+    url("/images/exercise1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.card-1{
+    width: 370px;
+}
+.card-1 >p,
+.card-2 >p,
+.card-3 >p
+ {
+    position: absolute;
+    bottom: 57px;
+    left: 28px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.card-2 >p{
+    position: absolute;
+    top: 47px;
+    left: 28px;
+    color: rgb(255, 255, 255);
+
+}
+.card-3 >p{
+    color: rgb(255, 255, 255);
+
+}
+
+
+.card-2{
+    width: 499px;
+    background-image:linear-gradient(0deg, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), 
+    url("/images/exercise2.png");
+    grid-column: 2/ span 2;
+}
+.card-3{
+    width: 370px;
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("/images/exercise3.png");
+}
+.card-box-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+}
+.card-4{
+    width: 445px;
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("/images/exercise4.png");
+    grid-column: 1/ span 1;
+}
+.card-5{
+    width: 348px;
+    background-image:linear-gradient(0deg, rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), 
+    url("/images/exercise5.jpg");
+}
+.card-6{
+    width: 445px;
+    background-image:linear-gradient(0deg, rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), 
+    url("/images/exercise6.jpg");
+}
+.card-4 >p,
+.card-5 >p,
+.card-6 >p
+ {
+    position: absolute;
+    bottom: 57px;
+    left: 28px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+}
+.card-4 >p{
+    position: absolute;
+    top: 57px;
+    right: 35px;
+    text-align: right;
+}
+.card-2 >p{
+    position: absolute;
+    top: 47px;
+    left: 28px;
+    color: rgb(255, 255, 255);
+
+}
+.card-3 >p{
+    color: rgb(255, 255, 255);
+
+}
+/* team section style */
+.team-section{
+    margin: 70px 0px;
+}
+.team-section-card{
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 70px 0px;
+    padding: 10px;
+}
+.team-section-1,
+.team-section-2,
+.team-section-3,
+.team-section-4,
+.team-section-5,
+.team-section-6
+{
+   width: 393px;
+   height: 375px;
+   background-image: url("/images/trainer1.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   border-radius: 18px;
+}
+
+.team-section-2{
+   background-image: url("/images/trainer2.png");
+
+}
+.team-section-3{
+   background-image: url("/images/trainer3.png");
+
+}
+.team-section-4{
+   background-image: url("/images/trainer4.png");
+
+}
+.team-section-5{
+   background-image: url("/images/trainer5.png");
+
+}
+.team-section-6{
+   background-image: url("/images/trainer6.png");
+
+}
+.team-content-section{
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
+.team-title{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}
+.team-descrption {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: -12px !important;
+}
+
+/* footer section style */
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo> h1{
+    color: rgb(230, 83, 60);
+    font-size: 60px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: left;
+}
+.footer-item{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+.footer-link > ul{
+    border-radius: 39px;
+    padding: 5px;
+}
+.footer-link > ul >li{
+    list-style: none;
+    margin-right: 25px;
+    padding: 6px 0px;
+}
+.footer-link > ul >li a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
 }
