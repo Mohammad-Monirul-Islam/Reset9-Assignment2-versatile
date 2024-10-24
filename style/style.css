@@ -279,7 +279,7 @@ p{
     /* width: 413px; */
     height: 350px;
     background-image:linear-gradient(0deg, rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), 
-    url("/images/exercise1.jpg");
+    url("./images/exercise1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -316,13 +316,13 @@ p{
 .card-2{
     width: 499px;
     background-image:linear-gradient(0deg, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), 
-    url("/images/exercise2.png");
+    url("./images/exercise2.png");
     grid-column: 2/ span 2;
 }
 .card-3{
     width: 370px;
     background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("/images/exercise3.png");
+    url("./images/exercise3.png");
 }
 .card-box-2{
     display: grid;
@@ -332,18 +332,18 @@ p{
 .card-4{
     width: 445px;
     background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("/images/exercise4.png");
+    url("./images/exercise4.png");
     grid-column: 1/ span 1;
 }
 .card-5{
     width: 348px;
     background-image:linear-gradient(0deg, rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), 
-    url("/images/exercise5.jpg");
+    url("./images/exercise5.jpg");
 }
 .card-6{
     width: 445px;
     background-image:linear-gradient(0deg, rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), 
-    url("/images/exercise6.jpg");
+    url("./images/exercise6.jpg");
 }
 .card-4 >p,
 .card-5 >p,
@@ -397,7 +397,7 @@ p{
 {
    width: 393px;
    height: 375px;
-   background-image: url("/images/trainer1.png");
+   background-image: url("./images/trainer1.png");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -406,23 +406,23 @@ p{
 }
 
 .team-section-2{
-   background-image: url("/images/trainer2.png");
+   background-image: url("./images/trainer2.png");
 
 }
 .team-section-3{
-   background-image: url("/images/trainer3.png");
+   background-image: url("./images/trainer3.png");
 
 }
 .team-section-4{
-   background-image: url("/images/trainer4.png");
+   background-image: url("./images/trainer4.png");
 
 }
 .team-section-5{
-   background-image: url("/images/trainer5.png");
+   background-image: url("./images/trainer5.png");
 
 }
 .team-section-6{
-   background-image: url("/images/trainer6.png");
+   background-image: url("./images/trainer6.png");
 
 }
 .team-content-section{
